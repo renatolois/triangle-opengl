@@ -1,0 +1,15 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-Iinclude",
+      "-o",
+      "bin/app",
+      "src/glad.c"
+    ],
+    "directory": "/home/lois/workspace/Learning/opengl/1-hello",
+    "file": "/home/lois/workspace/Learning/opengl/1-hello/src/glad.c",
+    "output": "/home/lois/workspace/Learning/opengl/1-hello/bin/app"
+  }
+]
