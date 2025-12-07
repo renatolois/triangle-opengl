@@ -1,12 +1,5 @@
-/*
-  obs: nao sei pq se o fragment shader tiver "errado", no caso eu copiei o mesmo codigo 
-  do vertexShaderSource, entao daria erro, mas ao invez de ir para o if, ele na verdade
-  causou um segmentation fault na funcao glLinkProgram. Mas caso seja o codigo correto
-  ele funciona normalmente. Não sei se é erro do driver ou so um detalhe mesmo.
-*/
-
-#include "../../external-libs/glad/include/glad.h"
-#include "../../external-libs/GLFW/include/glfw3.h"
+#include "../external-libs/glad/include/glad.h"
+#include "../external-libs/GLFW/include/glfw3.h"
 #include <iostream>
 #include <cstdlib>
 
