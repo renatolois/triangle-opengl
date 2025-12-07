@@ -1,9 +1,9 @@
 CXX = g++
-CXXFLAGS = -Iinclude -I/external-libs/glad/include -std=c++17
+CXXFLAGS = -Iinclude -Iexternal-libs/glad/include -std=c++17
 
-LIBS = /external-libs/GLFW/src/libglfw3.a
+LIBS = external-libs/GLFW/src/libglfw3.a
 
-SRC = src/main.cpp /external-libs/glad/src/glad.c
+SRC = src/main.cpp external-libs/glad/src/glad.c
 
 TARGET = bin/app
 
